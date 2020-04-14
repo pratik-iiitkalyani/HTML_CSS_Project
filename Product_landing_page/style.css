@@ -6,12 +6,6 @@ body {
     margin: 8px;
 }
 
-@media screen {
-    body {
-      width: 75%;
-    }
-  }
-
 header {
     position: fixed;
     /* background-color: red; */
