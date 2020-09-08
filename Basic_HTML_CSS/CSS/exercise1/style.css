@@ -1,0 +1,19 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.main-header {
+  background-color: lightgray;
+}
+
+.text-color {
+  color: rgb(57, 116, 57);
+}
+
+.main-section {
+  background-color: grey;
+}
+
+span {
+  background-color: lightgreen;
+}

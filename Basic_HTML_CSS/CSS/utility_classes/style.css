@@ -1,0 +1,17 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Generally we define only one property in utility classes */
+/* utility classes  */
+.text-green {
+  color: rgb(19, 138, 19);
+}
+
+.text-red {
+  color: rgb(124, 46, 46);
+}
+
+.bg-dark {
+  background-color: black;
+}
