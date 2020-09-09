@@ -1,0 +1,23 @@
+/* inline style attribute > id selector > class selector > element selector */
+
+h1 {
+  color: green;
+}
+
+/* if class have same specificity the lower one override the previous one */
+.h1class {
+  color: red;
+}
+
+.heading {
+  color: chartreuse;
+}
+
+/* imporatant is used to increase the specificity */
+/* .h1class {
+  color: red !important;
+} */
+
+#h1id {
+  color: rgb(182, 36, 36);
+}
