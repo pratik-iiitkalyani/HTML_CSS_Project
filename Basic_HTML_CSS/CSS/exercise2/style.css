@@ -1,0 +1,36 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  border: 1px solid#cdcdcd;
+  background-color: #cdcdcd;
+  text-align: center;
+  margin: 20px 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* .about-me {
+  border: 2px solid #cdcdcd;
+  padding: 10px;
+  margin: 20px 200px;
+}
+
+.about-lilly {
+  border: 1px solid #cdcdcd;
+  padding: 10px;
+  margin: 20px 200px;
+} */
+
+section.about-me,
+section.about-lilly {
+  border: 2px solid #cdcdcd;
+  padding: 10px;
+  margin: 20px 200px;
+}
+
+section h3 {
+  text-transform: uppercase;
+  color: #444;
+}
