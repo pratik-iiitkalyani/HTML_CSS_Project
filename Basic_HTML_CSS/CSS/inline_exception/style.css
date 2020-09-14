@@ -1,0 +1,12 @@
+img {
+  width: 300px;
+  border: 4px solid black;
+  margin: 10px;
+  padding: 10px;
+}
+
+/* we do not have to give height and width both
+browser will adjust the height or width of the img */
+
+/* we can also give magin and padding both in img tag unlike of other text related 
+inline element */
