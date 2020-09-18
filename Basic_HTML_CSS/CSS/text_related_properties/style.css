@@ -1,0 +1,16 @@
+h1 {
+  font-size: 46px;
+  letter-spacing: 5px;
+  /* text-decoration: underline; */
+  text-decoration: underline solid red;
+  /* text-decoration: overline wavy red; */
+}
+
+p {
+  font-size: 20px;
+  /* space between two lines is line height */
+  line-height: 30px;
+  /* space between two word is word spacing */
+  word-spacing: 10px;
+  letter-spacing: 2px;
+}
