@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,200&display=swap");
+p {
+  /* default is normal */
+  /* font-weight: normal; */
+  /* font-weight: 400; */
+  font-weight: bold;
+  /* font-weight: 700; */
+}
+
+h1 {
+  /* default is bold */
+  /* font-weight: bold; */
+  /* font-weight: 700; */
+  /* font-weight: normal; */
+  /* font-weight: 400; */
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
