@@ -1,0 +1,37 @@
+/* Pseudo Classes --- link, visited, hover, active */
+
+/* generally we maintain the above order */
+
+a:link {
+  color: orange;
+}
+
+a:visited {
+  color: red;
+}
+
+a:hover {
+  color: green;
+}
+
+a:active {
+  color: black;
+}
+
+p:hover {
+  color: blue;
+}
+
+p:active {
+  background-color: chocolate;
+}
+
+input:focus {
+  padding: 5px;
+  outline: none;
+  border: 2px solid red;
+}
+
+input:required {
+  color: red;
+}
