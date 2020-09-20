@@ -1,0 +1,42 @@
+/* :root(h1(element), .class, #id) */
+
+/* :not(p) {
+  color: green;
+} */
+
+/* it will also convert p color to green....becoz green color is inherit from body */
+
+/* it work inside body */
+/* body :not(p) {
+  color: green;
+} */
+
+/* body :not(.fancy) {
+  color: green;
+  background-color: #dddddd;
+} */
+
+/* ---------- :empty --------- */
+/* div:empty {
+  background-color: #222222;
+  border: 2px solid red;
+  height: 20px;
+} */
+
+/* ---------- :root ------- */
+
+/* :root{} and html{} is same */
+
+/* root specificity is more than html */
+/* but we generally use body instead of :root  */
+
+/* :root we generally use to create css varible */
+:root {
+  color: #eeeeee;
+  background: #333333;
+}
+
+html {
+  color: white;
+  background: red;
+}
