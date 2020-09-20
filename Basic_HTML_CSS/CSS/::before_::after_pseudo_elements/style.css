@@ -1,0 +1,27 @@
+/* we can treat hello as a single element */
+
+/* we can use only pseudo element if element have some content */
+/* we can not use with like img  */
+
+.cool::before {
+  content: "hello ";
+  color: green;
+  border: 2px solid red;
+  display: block;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+
+.cool::after {
+  content: "hello ";
+  color: green;
+  border: 2px solid red;
+  display: block;
+  margin-top: 5px;
+  padding: 5px;
+}
+
+/* that will not work */
+img::after {
+  content: "hello";
+}
