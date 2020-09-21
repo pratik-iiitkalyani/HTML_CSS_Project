@@ -1,0 +1,30 @@
+/* h1 { */
+/* border: 4px solid red; */
+/* width: 20em; */
+/* viewport width - vw */
+/* width: 50vw; */
+/* } */
+
+/* vw - realtive to viewport width */
+
+/* .box1 {
+  border: 4px solid red;
+  width: 50%;
+  padding: 5px;
+}
+
+h1 {
+  border: 2px solid green;
+  width: 50%;
+  width: 70vh;
+  change according to viewport width not parent
+} */
+
+/* vh change according to viewport height */
+.box {
+  height: 100vh;
+  background-color: green;
+}
+
+/* vmin - min of vm and vh
+vmax - max of vm and vh */
