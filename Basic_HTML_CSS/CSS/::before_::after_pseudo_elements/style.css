@@ -1,7 +1,7 @@
 /* we can treat hello as a single element */
 
 /* we can use only pseudo element if element have some content */
-/* we can not use with like img  */
+/* we can not use with like img, br, input, etc  */
 
 .cool::before {
   content: "hello ";
