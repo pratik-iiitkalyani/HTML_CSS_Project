@@ -1,0 +1,23 @@
+/* rem unit work relative to the root element */
+/* but we can change the default size provided by browser */
+
+html {
+  /* font-size: 10px; */
+  font-size: 62.5%;
+}
+
+/* :root {
+  font-size: 10px;
+} */
+
+.box1 {
+  /* 2rem = 2*10 = 20px */
+  font-size: 2rem;
+}
+
+.text-content {
+  font-size: 3rem;
+  border: 1rem solid red;
+  margin: 0.5rem;
+  padding: 2.5rem;
+}
