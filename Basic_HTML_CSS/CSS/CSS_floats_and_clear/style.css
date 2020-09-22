@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+.fav-musicians {
+  border: 10px solid green;
+}
+
+.mozart {
+  width: 25%;
+  /* border: 4px solid red; */
+  background-color: lightblue;
+  float: left;
+  padding: 20px;
+  /* that will messed up beacause mozaart does not exist in document flow */
+}
+
+.beethoven {
+  width: 25%;
+  float: right;
+  padding: 20px;
+  background-color: lightsalmon;
+}
+
+.bach {
+  width: 25%;
+  padding: 20px;
+  background-color: lightcyan;
+  float: left;
+}
+
+.paganini {
+  width: 25%;
+  float: left;
+  padding: 20px;
+  background-color: lightgreen;
+}
+
+.box {
+  clear: both;
+}
+
+/* one of the method to fix float  */
+/* .clearfix {
+  clear: both;
+} */
+
+/* another mathod */
+.fav-musicians::after {
+  content: "";
+  display: block;
+  clear: both;
+}
