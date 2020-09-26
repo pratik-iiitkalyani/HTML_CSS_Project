@@ -6,6 +6,8 @@
   box-sizing: border-box;
 }
 
+/* ############# html styling ########## */
+
 html {
   font-size: 62.5%;
 }
@@ -39,6 +41,12 @@ h3 {
 }
 
 /* ################# utility classes ############ */
+
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
 
 .lg-heading {
   font-size: 3.5rem;
