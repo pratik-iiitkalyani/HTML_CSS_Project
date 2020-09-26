@@ -85,6 +85,13 @@ h3 {
   border-radius: 10em;
 }
 
+.btn-secondary {
+  background-color: #fff;
+  border: 2px solid #e63946;
+  border-radius: 1.5em;
+  color: #e63946;
+}
+
 /* ########## header ######## */
 
 header {
@@ -156,4 +163,49 @@ header {
 
 .header-content p {
   text-transform: uppercase;
+}
+
+/* ############ showcase section styling ######### */
+
+.showcase {
+  background: #dddddd;
+  padding: 10rem 0;
+}
+
+.row {
+  height: 350px;
+  /* border: 2px solid red; */
+  background: #fff;
+}
+
+.row1 {
+  margin-bottom: 10rem;
+}
+
+.row1 .img-box,
+.row2 .text-box {
+  float: left;
+  width: 50%;
+}
+
+.row2 .img-box,
+.row1 .text-box {
+  float: right;
+  width: 50%;
+}
+
+.row .img-box {
+  /* border: 2px solid green; */
+  height: 100%;
+}
+.row .text-box {
+  /* border: 2px solid rebeccapurple; */
+  padding: 3rem;
+}
+
+.row .img-box img {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
