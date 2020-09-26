@@ -72,7 +72,23 @@ h3 {
   color: #555555;
 }
 
+.btn {
+  display: inline-block;
+  padding: 0.5em 1.5em;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin: 0.5em;
+}
+
+.btn-primary {
+  background-color: #fff;
+  border-radius: 10em;
+}
+
+/* ########## header ######## */
+
 header {
+  position: relative;
   height: 95vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../img/header-image.jpg");
@@ -119,4 +135,25 @@ header {
   content: "";
   display: block;
   clear: both;
+}
+
+/* ############## header content styling ######### */
+
+.header-content {
+  /* border: 2px solid green; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+}
+
+.header-content h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.header-content p {
+  text-transform: uppercase;
 }
