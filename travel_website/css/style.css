@@ -84,12 +84,19 @@ h3 {
   background-color: #fff;
   border-radius: 10em;
 }
+.btn-primary:hover {
+  background-color: #dddddd;
+}
 
 .btn-secondary {
   background-color: #fff;
   border: 2px solid #e63946;
   border-radius: 1.5em;
   color: #e63946;
+}
+
+.btn-secondary:hover {
+  background-color: #fcf3f2;
 }
 
 /* ########## header ######## */
