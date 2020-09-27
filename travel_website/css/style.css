@@ -259,3 +259,16 @@ header {
   background: rgb(117, 57, 57);
   color: #fff;
 }
+
+/* ############ footer Styling ######## */
+.footer {
+  /* border: 2px solid red; */
+  padding: 2rem;
+  background-color: #263238;
+  color: #f4f4f4;
+  text-align: center;
+}
+
+.social-media-link i {
+  margin: 2rem;
+}
