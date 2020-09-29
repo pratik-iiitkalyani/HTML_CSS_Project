@@ -1,0 +1,13 @@
+@media print {
+  body {
+    color: blue;
+  }
+}
+/* default is all and */
+/* all and - work same with every screen */
+
+@media screen and (max-width: 500px) {
+  body {
+    color: blue;
+  }
+}
