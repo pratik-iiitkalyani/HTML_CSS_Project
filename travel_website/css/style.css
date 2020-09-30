@@ -521,3 +521,147 @@ span {
   cursor: pointer;
   border-radius: 1.8rem;
 }
+
+/* ################# media queries ########## */
+
+@media (max-width: 500px) {
+  html {
+    font-size: 8px;
+  }
+
+  .navbar .nav-items,
+  .navbar .logo {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .header-content h1 {
+    display: none;
+  }
+
+  .row {
+    height: auto;
+    width: 100%;
+  }
+  .row .img-box,
+  .row .text-box {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  .features .box {
+    float: none;
+    width: 100%;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(102, 102, 102, 0.521);
+  }
+
+  .features .box-2,
+  .features .box-3 {
+    margin-top: 7rem;
+  }
+
+  .box-wrapper {
+    box-shadow: none;
+  }
+
+  .cta-banner-left,
+  .cta-banner-right {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  .form-wrapper .company-address,
+  .form-wrapper .form {
+    float: none;
+    width: 100%;
+    height: auto;
+  }
+  .form-wrapper .company-address {
+    margin-bottom: 5rem;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 768px) {
+  html {
+    font-size: 8px;
+  }
+  p {
+    font-size: 1.8rem;
+  }
+
+  .navbar .nav-items,
+  .navbar .logo {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .row {
+    height: auto;
+    width: 100%;
+  }
+  .row .img-box,
+  .row .text-box {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  .features .box {
+    float: none;
+    width: 100%;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(102, 102, 102, 0.521);
+  }
+
+  .features .box-2,
+  .features .box-3 {
+    margin-top: 7rem;
+  }
+
+  .box-wrapper {
+    box-shadow: none;
+  }
+
+  .cta-banner-left,
+  .cta-banner-right {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  .form-wrapper .company-address,
+  .form-wrapper .form {
+    float: none;
+    width: 100%;
+    height: auto;
+  }
+  .form-wrapper .company-address {
+    margin-bottom: 5rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .row .text-box h2 {
+    font-size: 2.2rem;
+  }
+  .contact-form .form-wrapper {
+    height: auto;
+  }
+}
+
+@media (orientation: landscape) and (max-height: 500px) {
+  .header {
+    height: 90vmax;
+  }
+}
