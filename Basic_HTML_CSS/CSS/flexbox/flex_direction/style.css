@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-wrapper {
+  border: 10px solid #222222;
+  display: flex;
+  /* default direction */
+  /* flex-direction: row; */
+  flex-direction: row-reverse;
+  /* flex-direction: column; */
+  /* flex-direction: column-reverse; */
+}
+
+.box {
+  border: 1px solid #666666;
+}
+
+.box-1 {
+  background: lightblue;
+}
+
+.box-2 {
+  background: lightcoral;
+}
+
+.box-3 {
+  background: lightgray;
+}
+
+.box-4 {
+  background: lightsalmon;
+}
+
+.box-2 {
+  background: lightslategray;
+}
